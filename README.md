@@ -21,6 +21,11 @@ git status
 nano .gitignore //for ignoring .venv files 
 git add .
 git commit -m "[commit message]"
+
+# Create git repo on browser then 
+git remote add origin https://github.com/stephanopineda/psgc_etl.git
+git branch -M main
+git push -u origin main
 #### End of Doing Git ####
 
 
